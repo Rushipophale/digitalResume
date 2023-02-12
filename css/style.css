@@ -1,0 +1,35 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Zeyada&display=swap');
+
+.title-contaner{
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Lobster', cursive;
+
+}
+
+.title-para{
+    font-family: 'Zeyada', cursive;
+    text-align: justify;
+}
+
+
+
+
+
+/* Media  */
+
+@media only screen and (max-width: 775px) {
+    .company {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width:1000px) {
+    .para-hide{
+        display: none;
+    }
+}
